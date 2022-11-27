@@ -15,8 +15,8 @@ let elections = {
     },
     "paper": {
         "paper": "draw",
-        "rock": "win",
-        "scissors": "lose"
+        "scissors": "win",
+        "rock": "win"
     },
     "scissors":{
         "scissors": "draw",

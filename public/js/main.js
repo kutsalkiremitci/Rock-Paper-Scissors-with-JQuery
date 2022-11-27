@@ -52,7 +52,7 @@ $('div[data-choice]').on('click',function(){
     computerchoiceArea.text(computerChoice);
     
     /* Message Style Type Set & Show */
-    let result = elections[computerChoice][choice];
+    result = elections[computerChoice][choice];
     resultArea.addClass('text-' + messageStyles[result]);
     resultArea.text(result);
 })

@@ -60,4 +60,5 @@ $('div[data-choice]').on('click',function(){
 $('.playAgain').on('click',function(){
     endGameWrapper.addClass('d-none');
     choiceWrapper.removeClass('d-none');
+    resultArea.removeClass('text-' + messageStyles[result]);
 })

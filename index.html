@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="author" content="@kutsalkiremitci">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rock Paper Scissors with JQuery</title>
+<!-- Bootstrap -->
+<link rel="stylesheet" href="./public/css/bootstrap.min.css">
+<!-- CSS -->
+<link rel="stylesheet" href="./public/css/style.css">
+<!-- JQuery -->
+<script src="./public/js/jquery.min.js"></script>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="text-center text-light">
+                <div class="h3 pt-3">Rock Paper Scissors with JQuery</div>
+                <span>Created by <a href="https://www.github.com/kutsalkiremitci"
+                        target="_blank">@kutsalkiremitci</a></span>
+            </div>
+            <!-- Choice Wrapper -->
+            <div class="choice-wrapper">
+                <h3>Select your choice</h3>
+                <div class="choiceArea d-flex flex-row ">
+                    <div data-choice="rock">Rock</div>
+                    <div data-choice="paper">Paper</div>
+                    <div data-choice="scissors">Scissors</div>
+                </div>
+            </div>
+            <!-- EndGame Wrapper -->
+            <div class="endGame-wrapper d-none text-uppercase">
+                <h3>Your choice: <span class="myChoice"></span></h3>
+                <h3>Computer choice: <span class="computerchoice"></span></h3>
+                <h3>Result: <span class="resultArea"></span></h3>
+                <button class="btn btn-primary playAgain">Play again</button>
+            </div>
+        </div>
+    </main>
+    <!-- Core Scripts -->
+    <script src="./public/js/main.js"></script>
+</body>
+
+</html>

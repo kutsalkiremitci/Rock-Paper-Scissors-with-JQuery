@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Yellowtail&display=swap');
+body{
+    font-family: 'Fredoka One', cursive;
+    background: #1d1d1d;
+    color: #fff;
+}
+.choiceArea div{
+    border: 1px solid #fff;
+    font-size: 20px;
+    padding: 10px;
+    width: 100%;
+    transition: 0.3 all;
+    text-align:center;
+    cursor: pointer;
+}
+.choiceArea div:hover{
+    background: #fff;
+    color: #1d1d1d;    
+}
